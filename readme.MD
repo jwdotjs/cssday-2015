@@ -2,7 +2,7 @@
 
 ## The Contest
 
-We had 20 minutes to create a replica of a Github profile.
+We had 20 minutes to create a replica of a Github profile. We weren't allowed to view our end result until the time was up.
 
 Here was my result.
 
