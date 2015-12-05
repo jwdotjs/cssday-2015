@@ -1,0 +1,251 @@
+<html>
+  <head>
+    <style type="text/css">
+
+      .flexbox {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+      }
+
+      .flexcell {
+        flex: 1 1 auto;
+      }
+
+      .flexcell--static {
+        flex: 0 0 auto;
+      }
+
+      .username {
+        color: 333;
+      }
+
+      .title {
+        background-color: #eee;
+        padding: 5px;
+        font-weight: bold;
+      }
+
+      .small-title {
+        color: #666;
+        font-size: 9px;
+      }
+
+    </style>
+    <link rel="stylesheet" href="https://assets-cdn.github.com/assets/github-980086798633a7804d9e6353689ba4c79120d0f4a6264214d08411a5f3c6116a.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+  </head>
+  <body>
+
+    <header class="flexbox">
+      <span class="mega-octicon octicon-mark-github" />
+      <input type="text" class="flexcell" placeholder="Search Github" />
+      <div class="pull-requests flexcell--static">Pull Request</div>
+      <div class="issues flexcell--static">Issues</div>
+      <div class="gist flexcell--static">Gist</div>
+    </header>
+
+    <div class="container">
+      <aside>
+        <img src="https://avatars2.githubusercontent.com/u/12890?v=3&s=460" alt="User Image" />
+        <h1>Jonathan Snook</h1>
+        <div class="username">snookca</div>
+
+        <div class="info">
+          <div>
+          <span class="octicon octicon-location" /> Ontario Canada
+          </div>
+          <div>
+          <span class="octicon octicon-mail" /> jonathan@snook.ca
+           </div>
+
+           <div>
+           <span class="octicon octicon-link" /><a href="http://snook.ca/">http://snook.ca</a>
+           </div>
+           <div>
+          <span class="octicon octicon-clock" /> Joined on Jun 6, 2008
+          </div>
+        </div>
+
+        <div class="stats flexbox">
+          <div class="follower-container flexcell">
+            <a href="">210</a>
+            <div class="small-label">Followers</div>
+          </div>
+
+          <div class="starred-container flexcell">
+            <a href="">14</a>
+            <div class="small-label">Starred</div>
+          </div>
+
+          <div class="following-container flexcell">
+            <a href="">5</a>
+            <div class="small-label">Following</div>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <div class="tabs">
+          <div class="tab">
+            <span class="octicon octicon-contributions" />
+            Contributions
+          </div>
+
+          <div class="tab">
+            <span class="octicon octicon-repo" />
+            Repositories
+          </div>
+
+          <div class="tab">
+            <span class="octicon octicon-activity" />
+            Public Activity
+          </div>
+        </div>
+
+        <div class="repo-container flexbox">
+          <div class="popular-repo-pane flexcell">
+            <div class="title">Popular Repositories</div>
+            <div class="repo">
+              <span class="octicon octicon-repo" />
+              <div class="content">
+                <a href="#">CoffeeConsole</a>
+                <div>Description</div>
+              </div>
+            </div>
+
+            <div class="repo">
+              <span class="octicon octicon-repo" />
+              <div class="content">
+                <a href="#">CoffeeConsole</a>
+                <div>Description</div>
+              </div>
+            </div>
+
+            <div class="repo">
+              <span class="octicon octicon-repo" />
+              <div class="content">
+                <a href="#">CoffeeConsole</a>
+                <div>Description</div>
+              </div>
+            </div>
+
+            <div class="repo">
+              <span class="octicon octicon-repo" />
+              <div class="content">
+                <a href="#">CoffeeConsole</a>
+                <div>Description</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flexcell">
+            <div class="title">Repositories contributed to</div>
+
+            <div class="repo">
+              <span class="octicon octicon-repo" />
+              <div class="content">
+                <a href="#">CoffeeConsole</a>
+                <div>Description</div>
+              </div>
+            </div>
+
+            <div class="repo">
+              <span class="octicon octicon-repo" />
+              <div class="content">
+                <a href="#">CoffeeConsole</a>
+                <div>Description</div>
+              </div>
+            </div>
+
+            <div class="repo">
+              <span class="octicon octicon-repo" />
+              <div class="content">
+                <a href="#">CoffeeConsole</a>
+                <div>Description</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="public-contribs">
+          <div class="title">
+            Public contributions
+          </div>
+          <div class="contributions">
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="float: left; width: 2px; height: 2px; background-color: #333" />
+            <div style="clear: both" />
+          </div>
+
+          <div class="contrib-metrics flexbox">
+            <div class="flexcell">
+              <div class='small-title'>Contributions in the last year</div>
+              <h3>17 total</h3>
+              <div class='small-title'>Dec 5, 2014 - Dec 5, 2015</div>
+            </div>
+
+            <div class="flexcell">
+              <div class='small-title'>Longest Streak</div>
+              <h3>1 day</h3>
+              <div class='small-title'>Dec 5, 2014 - Dec 5, 2015</div>
+            </div>
+
+            <div class="flexcell">
+              <div class='small-title'>Current Streak</div>
+              <h3>0 days</h3>
+              <div class='small-title'>Dec 5, 2014 - Dec 5, 2015</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="flexbox">
+          <div class="flexcell">
+            <h6>Contribution Activity</h6>
+          </div>
+          <div class="flexcell">
+            <button>Period: 1 week</button>
+          </div>
+        </div>
+
+
+        <div class="contrib-activity" style="background-color: #333;">
+          <div style="text-align: center; font-weight: bold;">snooka has no activity during this period.</div>
+        </div>
+
+      </main>
+
+
+
+    </div>
+
+    <footer>Github rules. I am a github icon.</footer>
+
+  </body>
+
+</html>
